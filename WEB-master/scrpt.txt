@@ -1,0 +1,24 @@
+/* .menu_mobile{
+  background-color: #000814;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 77px;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.menu_mobile nav a{
+  color: aliceblue;
+  text-decoration: none;
+  display: block;
+  padding: 20px 30px;
+  font-size: 16pt;
+  
+}
+
+.menu_mobile nav a:hover{
+  background-color: #ffffff1d;
+} */
