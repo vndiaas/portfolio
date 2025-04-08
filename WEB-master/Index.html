@@ -130,13 +130,14 @@
         <section class="formulario" id="formulario">
             <div class="interface">
                 <h2 class="titulo">FALE <span>COMIGO</span></h2>
-                 <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail" required>
-                    <input type="text" name="" id="" placeholder="Seu celular" >
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                 <form id="form">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail" required>
+                    <input type="text" name="celular" id="celular" placeholder="Seu celular" >
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+
                     <div class="btn_enviar">
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Enviar" id="button">
                     </div><!--btn_enviar-->
                  </form>
             </div><!--interface-->
@@ -162,6 +163,9 @@
         </footer>
     </main>
     <script src="menu_mobile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="formulario.js"></script>
+  
 </body>
 
 </html>
